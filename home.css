@@ -1,0 +1,151 @@
+@charset "utf-8";
+body {
+}
+header {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    max-width: 100%;
+    height: 140px;
+    border-top: 15px solid rgba(249,202,16,1.00);
+    background-color: rgba(179,224,255,1.00);
+}
+body header img {
+    float: left;	
+}
+body header address {
+    font-family: acme;
+    font-style: normal;
+    font-weight: 300;
+    font-size: small;
+    line-height: 1.5;
+    color: rgba(125,125,125,1.00);
+    text-align: right;
+}
+header address a {
+    text-decoration: none;
+    color: rgba(125,125,125,1.00);
+}
+header address a:hover {
+    text-decoration: none;
+    color: rgba(249,202,16,1.00);
+}
+
+nav   {
+    font-family: acme;
+    font-style: normal;
+    font-weight: 400;
+    text-align: right;
+    font-size: 14px;
+    margin-top: 10px;
+}
+nav ul  {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 71px;
+}
+ul li a {
+    color: rgba(230,155,196,1.00);
+    text-decoration: none;
+}
+ul li a:hover {
+    color: rgba(248,202,16,1.00);
+    font-weight: bolder;
+}
+
+
+blockquote  {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: rgba(230,155,196,1.00);
+    text-align: center;
+}
+blockquote p {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: small;
+}
+body main {
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+    list-style-type: none;
+    padding-bottom: 2px;
+}
+
+body main h1 {
+    font-family: acme;
+    font-style: normal;
+    font-weight: 400;
+}
+body main h2 {
+    font-family: acme;
+    font-style: normal;
+    font-weight: 400;
+}
+.About {
+}
+.About h3 {
+    font-family: acme;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(204,57,136,1.00);
+    background-color: rgba(249,202,16,1.00);
+    padding-bottom: 8px;
+    padding-top: 6px;
+}
+.About p {
+    text-align: left;
+    background-color: rgba(253,246,215,1.00);
+    margin-top: -17px;
+}
+
+.Experience {
+    list-style-type: none;
+    border-top-style: dashed;
+    border-top-color: rgba(249,202,16,1.00);
+}
+.Experience h3 {
+    color: rgba(236,167,196,1.00);
+    font-family: acme;
+    font-style: normal;
+    font-weight: 400;
+}
+.Experience li {
+}
+.skill {
+	list-style-type: none;
+}
+
+.skill h4 {color: rgba(236,167,196,1.00);
+    font-family: acme;
+    font-style: normal;
+    font-weight: 400;
+}
+.skill li {
+}
+.education {list-style-type: none;
+}
+
+
+
+
+.education h4 {color: rgba(236,167,196,1.00);
+    font-family: acme;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.association {
+}
+.association h5 {
+}
+body footer {
+    padding-left: 20px;
+    background-color: rgba(249,202,16,1.00);
+    height: 20px;
+}
+body footer h6 {
+    padding-top: 3px;
+}
